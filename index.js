@@ -573,7 +573,7 @@ module.exports = (function () {
             
             try {
               
-              query.startKey(JSON.parse(options.where[key]));
+              query.startKey(options.where[key]);
             } catch (e) {
               
               return cb("Wrong start key format :" + e.message);

@@ -1,6 +1,6 @@
 {
   "name": "sails-dynamo-waterline",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Amazon DynamoDB adapter for Sails / Waterline with LimitKey",
   "main": "index.js",
   "directories": {
